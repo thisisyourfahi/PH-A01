@@ -129,3 +129,44 @@ header nav a {
     font-size: 16px;
     color: #627382;
 }
+
+/* Second Brain Section */
+.second-brain-section {
+    padding: 120px;
+}
+.second-brain-section .second-brain-container {
+    display: flex;
+    gap: 60px;
+    max-width: 1360px;
+    align-items: center;
+}
+.second-brain-container .bullets .green {
+    color: #469165;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.second-brain-container .bullets h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.second-brain-container .bullets .des {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.bullets .bullet-points {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    align-items: center;
+}
+.bullet-points img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+.bullet-points p {
+    margin: 0;
+}
