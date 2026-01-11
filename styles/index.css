@@ -200,8 +200,41 @@ header nav a {
     font-size: 40px;
     margin-bottom: 16px;
 }
-.tmc-container .des {
+.tmc-container .des, p{
     font-size: 16px;
     color: #627382;
     margin-bottom: 24px;
+}
+#shad {
+    box-shadow: 0 10ox 20px 0 rgba(0, 0, 0, 15);
+    margin-bottom: 16px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #001931;
+    padding: 120px 120px 30px;
+}
+footer .footer-nav {
+    display: flex;
+    gap: 790px;
+    margin-bottom: 80px;
+    max-width: 1360px;
+}
+.footer-nav .social h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-nav .icons {
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+}
+.footer-nav .icons img {
+    width: 20px;
+    height: 20px;
+}
+footer .footer-copyright {
+    text-align: center;
 }
