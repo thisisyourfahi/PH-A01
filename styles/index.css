@@ -1,0 +1,49 @@
+/* font embeding */
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Shared Styles */
+* {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    border: 1px dotted;
+}
+
+.btn {
+    border: none;
+    border-radius: 4px;
+    background-color: #30B868;
+    padding: 12px 16px;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+/* Individual Styles */
+/* NavBar Style */
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+/* HeroBanner Style */
