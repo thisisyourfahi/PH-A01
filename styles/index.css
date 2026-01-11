@@ -16,6 +16,9 @@ body {
 }
 
 .btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
     border: none;
     border-radius: 4px;
     background-color: #30B868;
@@ -70,6 +73,9 @@ header nav a {
     font-weight: 200;
 }
 .hero-content .btn1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     color: #30B868;
     border: none;
     border-radius: 100px;
@@ -77,12 +83,21 @@ header nav a {
     padding: 8px 12px;                     ;
 }
 .hero-content .btn2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid white;
     border-radius: 4px;
     padding: 12px 16px;
     color: white;
     margin-left: 16px ;
+}
+
+.buttons {
+    max-width: 465px;
+    display: flex;
+    /* gap: 16px; */
 }
 
 /* Notes and cards section */
@@ -169,4 +184,24 @@ header nav a {
 }
 .bullet-points p {
     margin: 0;
+}
+
+/* Think More Clearly Section */
+.think-more-clearly {
+    padding: 0 120px 120px 120px;
+    text-align: center;
+}
+.tmc-container {
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    padding: 80px 40px;
+}
+.tmc-container h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.tmc-container .des {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 24px;
 }
